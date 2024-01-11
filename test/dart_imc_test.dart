@@ -3,6 +3,6 @@ import 'package:test/test.dart';
 
 void main() {
   test('calculate', () {
-    expect(calculate(), 42);
+    expect(calculaIMC(62.0, 1.72), equals('20.96 - Saudável'));
   });
 }
